@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --bdr-black:1px solid #000000;
+}
+
+input{
+    
+    border:var(--bdr-black);
+}
+.col-sm-9{
+   
+    border:var(--bdr-black);
+}
+.col-sm-3{
+    
+    border:var(--bdr-black);
+}
+.title-wrapper{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border:var(--bdr-black);
+}
+input, button {
+    height:4rem;
+    border:var(--bdr-black)!important;
+
+}
+.btn-default{
+    border:var(--bdr-black)!important;
+    font-size: 1.8rem;
+}
+.btn-success{
+    font-size: 1.8rem;
+}
